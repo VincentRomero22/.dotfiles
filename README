@@ -1,0 +1,16 @@
+linux.sh
+
+This script sets up the Linux system by installing and configuring various packages and services. It also creates necessary directories and sets up the system according to the configurations specified in the .bashrc and .vimrc files.
+cleanup.sh
+
+This script removes any unnecessary files and directories created during the setup process.
+Makefile
+
+This file contains two targets: linux and clean. The linux target runs the linux.sh script, while the clean target runs the cleanup.sh script. The linux target has a dependency on the clean target, which means that the clean target will be run first before the linux target.
+.vimrc
+
+This file contains configurations for the Vim text editor. It sets various options and key mappings for a more efficient and user-friendly editing experience.
+.bashrc.custom
+
+This file contains custom configurations for the Bash shell. It sets various aliases and environment variables for a more efficient and user-friendly shell experience.
+
